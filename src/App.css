@@ -1,5 +1,14 @@
+.App {
+  position: relative;
+}
+.bodySection {
+  transform: translateY(42px);
+}
+
 /* Navbar */
 nav {
+  position: absolute;
+  top: 0;
   width: 100%;
   background-color: pink;
   height: 42px;
@@ -55,5 +64,42 @@ nav {
 .navbar-links--purchase {
   background: green;
   color: white;
+  font-weight: bold;
+}
+
+/* HERO */
+.hero {
+  width: 100%;
+  min-height: 500px;
+  height: 41vw;
+}
+.hero-textContainer {
+  width: 450px;
+  margin-left: 4vw;
+  padding-top: 8.5vw;
+}
+.hero-textContainer-img {
+  width: 100%;
+}
+.hero-textContainer-p {
+  font-size: 1.5rem;
+  color: white;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 30px;
+}
+.hero-textContainer-links {
+  display: flex;
+  gap: 25px;
+}
+.hero-textContainer-links--link {
+  padding: 10px 0;
+  background: white;
+  text-decoration: none;
+  color: black;
+  width: 100%;
+  text-align: center;
+  border-radius: 2px;
+  font-size: 1.2rem;
   font-weight: bold;
 }
